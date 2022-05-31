@@ -6,3 +6,11 @@ The script assumes you will be using wlan0 device, it will automatically add the
 You need to enter the path and the name of the output file dumpfile.pcapng
 If you do not specify the path, the file will be saved in your current directory.
 Data capture must be stopped manually (ctrl+c), after that the script starts all network services and runs the tool for converting dumpfile.pcapng to dumpfile.hc22000 needed by hashcat to perform password cracking
+
+Download the script. 
+Use
+chmod +x hashcatdump.sh
+./hashcatdumo.sh
+
+or you can just use
+bash hashcatdump.sh
